@@ -6,8 +6,12 @@
 </p>
 
 <p>
-  <strong>User:</strong>
-  <%= @gossip.user.username %>
+  <strong>Auteur:</strong>
+  <%= @gossip.user.username %><br>
+  <strong>Créé le:</strong>
+  <%= @gossip.created_at.strftime("%d/%m/%Y") %><br>
+  <strong>Modifié le:</strong>
+  <%= @gossip.updated_at.strftime("%d/%m/%Y") %>
 </p>
 <% if current_user.id == @gossip.user.id %>
   <%= link_to 'Edit', edit_gossip_path(@gossip) %>
