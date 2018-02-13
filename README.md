@@ -1,24 +1,6 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Héhé tu ne devineras jamais mon dernier gossip !!
+Utilise ce code d'accès pour découvrir tous mes secrets... mais surtout ceux des autres ;)
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Tu peux accèder à la version live ici : https://protected-plateau-13255.herokuapp.com/
