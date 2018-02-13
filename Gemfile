@@ -3,11 +3,9 @@ source 'https://rubygems.org'
 # authentification
 #gem 'pundit'
 
-# gem 'bootstrap-sass'
+
 gem 'devise'
-gem 'annotate'
 gem 'bootstrap', '~> 4.0.0'
-gem 'bootswatch'
 gem 'bcrypt',                 '3.1.11'
 gem 'rails'
 gem 'puma'
