@@ -40,6 +40,9 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.5.2)
       public_suffix (>= 2.0.2, < 4.0)
+    annotate (2.7.2)
+      activerecord (>= 3.2, < 6.0)
+      rake (>= 10.4, < 13.0)
     arel (8.0.0)
     autoprefixer-rails (8.0.0)
       execjs
@@ -54,6 +57,12 @@ GEM
     bootstrap (4.0.0)
       autoprefixer-rails (>= 6.0.3)
       popper_js (>= 1.12.9, < 2)
+      sass (>= 3.5.2)
+    bootstrap-sass (3.3.7)
+      autoprefixer-rails (>= 5.2.1)
+      sass (>= 3.3.4)
+    bootswatch (4.0.0)
+      autoprefixer-rails (>= 6.0.3)
       sass (>= 3.5.2)
     builder (3.2.3)
     byebug (9.0.6)
@@ -277,10 +286,13 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  annotate
   bcrypt (= 3.1.11)
   better_errors
   binding_of_caller
-  bootstrap (~> 4.0.0)
+  bootstrap
+  bootstrap-sass
+  bootswatch
   byebug (= 9.0.6)
   capybara
   coffee-rails
